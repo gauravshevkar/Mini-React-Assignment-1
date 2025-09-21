@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Reset from './assets/reset'
+import Reset from './assets/Reset.jsx'
 
 
 
