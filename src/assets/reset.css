@@ -2,8 +2,8 @@
     /* border: solid ; */
     text-align: center;
         background-color: rgb(216, 211, 211);
-    padding: 20px 40px;
-    width: 40%;
+    padding-top: 20px;
+        width: 50%;
     height: 350px;
     position: relative;
     left: 25%;
@@ -11,14 +11,7 @@
     border-radius: 20px;
   background: linear-gradient(135deg, pink, lightblue);
   background-size: 100% 100%;
-
-
-
-
 }
-
-
-
 
 button{
     border-radius: 10px;
@@ -40,7 +33,7 @@ button:hover{
 span{
     position: absolute;
     top: 220px;
-    left: 160px;
+    left: 185px;
 }
 
 input{
@@ -52,7 +45,16 @@ input{
     width: 250px;
     height: 35px;}
 
-
+    @media screen and (max-width: 450px) {
+   .container{
+    width: 98%;
+    left: 5px;
+    padding: 20px 0px;
+   }
+span{
+    left: 45px;
+}
+}
     /* ================== */
 
 
