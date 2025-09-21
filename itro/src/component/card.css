@@ -1,0 +1,15 @@
+.card_body{
+    border: 1px solid;
+    width: 250px;
+    position: relative;
+    left: 40%;
+    border-radius: 8px;
+}
+.img{
+    width: 250;
+}
+img{
+    width: 100%;
+    border-radius: 8px;
+
+}
